@@ -6,9 +6,9 @@ module.exports = {
   siteMetadata: {
     title: `Felipe Tubba`,
     position: "Desenvolvedor Front-end",
-    description: `Blog sobre desenvolvimento web.`,
+    description: `Seja bem-vindo ao meu blog. Aqui eu falo sobre desenvolvimento web e da minha vida pessoal. Divirta-se!`,
     author: `@felipetubba`,
-    siteUrl: `https://teste.com.br`
+    siteUrl: `https://teste.com.br`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -86,5 +86,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-cms`,
   ],
 }

@@ -8,9 +8,13 @@ import * as S from "./styles"
 
 const Sidebar = () => (
   <S.SidebarWrapper>
-    <Profile />
-    <SocialLinks />
-    <MenuLinks />
+    <S.layoutGroup>
+      <Profile />
+      <MenuLinks />
+    </S.layoutGroup>
+    <S.layoutGroup>
+     <SocialLinks />
+    </S.layoutGroup>
   </S.SidebarWrapper>
 )
 

@@ -18,7 +18,7 @@ export const SocialLinksList = styled.ul`
 `
 
 export const SocialLinksItem = styled.li`
-  padding: 8px;
+  padding: 0 10px;
   
 ${media.lessThan("large")`
   padding: 3px;
@@ -37,8 +37,8 @@ export const SocialLinksLink = styled.a`
 
 export const IconWrapper = styled.div`
   fill: #bbb;
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
 
   ${media.lessThan("large")`
   width: 28px;

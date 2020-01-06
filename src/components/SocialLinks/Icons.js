@@ -9,7 +9,6 @@ const Icons = {
     Twitter,
     Youtube,
     Instagram,
-    Linkedin,
 }
 
 export default Icons

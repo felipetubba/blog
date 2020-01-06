@@ -15,10 +15,6 @@ const links = [
         label: "Instagram",
         url: "https://instagram.com"
     },
-    {
-        label: "Linkedin",
-        url: "https://linkedin.com"
-    }
 ]
 
 export default links

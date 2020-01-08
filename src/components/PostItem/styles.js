@@ -60,7 +60,7 @@ export const PostItemInfo = styled.div`
 
 export const PostItemDate = styled.time`
   font-size: 0.9rem;
-  color: #777777;
+  color: var(--description);
 `
 
 export const PostItemTitle = styled.h1`
@@ -73,5 +73,5 @@ export const PostItemDescription = styled.p`
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.2;
-  color: #777777;
+  color: var(--description);
 `

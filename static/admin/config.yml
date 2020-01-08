@@ -25,3 +25,22 @@ collections:
         }
       - { label: "image", name: "thumbnail", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - {
+        label: "Category",
+        name: "category",
+        widget: "select",
+        options: ["React", "css", "js", "html", "dev", "misc"]
+      }
+      - {
+        label: "Background",
+        name: "background",
+        widget: "select",
+        options: [
+          { label: "React", value: "#28C2DC" },
+          { label: 'CSS', value: '#2DA0C3' },
+          { label: 'JS', value: '#F0D91D' },
+          { label: 'HTML', value: '#DE4B25' },
+          { label: 'Dev', value: '#637a91' },
+          { label: 'Misc', value: '#7AAB13' },
+        ]
+      }

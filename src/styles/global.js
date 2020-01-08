@@ -55,7 +55,8 @@ const GlobalStyles = createGlobalStyle`
     background: #16202c;
     line-height: 1;
     font-size: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
   }
   img {
     display: block;
@@ -63,23 +64,27 @@ const GlobalStyles = createGlobalStyle`
   	height: auto;
   }
 
+  #main-nav {
+    color: var(--postColor)
+  }
+
   body.dark {
     --borders: #38444d;
-    --texts: #8899a6;
-    --postColor: #fff;
+    --texts: #b1b9bf;
+    --postColor: #b1b9bf;
     --highlight: #1fa1f2;
     --mediumBackground: #111111;
-    --background: #1C1C1D;
+    --background: #161616;
     --white: #fff;
     --black: #222;
   }
   body.light {
     --borders: #dedede;
-    --texts: #8899a6;
+    --texts: #b1b9bf;
     --postColor: #111;
     --highlight: #1fa1f2;
     --mediumBackground: #111111;
-    --background: #fff;
+    --background: #efefef;
     --white: #fff;
     --black: #222;
   }

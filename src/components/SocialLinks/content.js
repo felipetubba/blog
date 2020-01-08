@@ -1,7 +1,7 @@
 const links = [
     {
         label: "Github",
-        url: "https://github.com"
+        url: "https://github.com/felipetubba"
     },
     {   
         label: "Twitter",
@@ -9,11 +9,11 @@ const links = [
     },
     {    
         label: "Youtube",
-        url: "https://youtube.com"
+        url: "https://www.youtube.com/channel/UCy2uVNsb3O-KTIXi88V37IA"
     },
     {
         label: "Instagram",
-        url: "https://instagram.com"
+        url: "https://instagram.com/felipetubba"
     },
 ]
 

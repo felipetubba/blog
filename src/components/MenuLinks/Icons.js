@@ -1,15 +1,15 @@
 import { Home } from "styled-icons/boxicons-solid/Home"
 import { School } from "styled-icons/material/School"
-import { Contact } from "styled-icons/boxicons-solid/Contact"
+import { Email } from "styled-icons/material/Email"
 import { Gear } from "styled-icons/octicons/Gear"
-import { PersonPin } from "styled-icons/material/PersonPin"
+import { Profile } from "styled-icons/remix-fill/Profile"
 
 const Icons = {
     Home: Home,
     Cursos: School,
-    Contato: Contact,
+    Contato: Email,
     Projetos: Gear,
-    Sobre: PersonPin,
+    Sobre: Profile,
 }
 
 export default Icons

@@ -5,19 +5,19 @@ const links = [
     },
     {
       label: "Cursos",
-      url: "/cursos/",
+      url: "/cursos",
     },
     {
       label: "Contato",
-      url: "/contato/",
+      url: "/contato",
     },
     {
       label: "Projetos",
-      url: "/projetos/",
+      url: "/projetos",
     },
     {
       label: "Sobre",
-      url: "/about/",
+      url: "/sobre",
     },
   ]
   

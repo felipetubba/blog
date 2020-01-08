@@ -3,7 +3,7 @@ import media from "styled-media-query"
 import { Link } from "gatsby"
 
 export const PostItemLink = styled(Link)`
-  color: var(--texts);
+  color: var(--postColor);
   display: flex;
   text-decoration: none;
   &:hover {
@@ -15,13 +15,13 @@ export const PostItemWrapper = styled.section`
   align-items: center;
   border-bottom: 1px solid var(--borders);
   display: flex;
-  padding: 2rem 3rem;
+  padding: 1.5rem 3rem;
   width: 100%;
 
   ${media.lessThan("large")`
     align-items: flex-start;
     flex-direction: column;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
   `}
 `
 
@@ -60,6 +60,7 @@ export const PostItemInfo = styled.div`
 
 export const PostItemDate = styled.time`
   font-size: 0.9rem;
+  color: #777777;
 `
 
 export const PostItemTitle = styled.h1`
@@ -72,4 +73,5 @@ export const PostItemDescription = styled.p`
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.2;
+  color: #777777;
 `

@@ -14,13 +14,13 @@ export const PostHeader = styled.header`
 `
 
 export const PostTitle = styled.h1`
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 700;
   padding: 0 1.4rem;
-  margin: 1rem auto;
+  margin: 0.8rem auto;
 
   ${media.lessThan("large")`
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     line-height: 1.1;
     padding: 0 1rem;
   `}
@@ -30,11 +30,13 @@ export const PostDescription = styled.h2`
   font-size: 2rem;
   font-weight: 200;
   padding: 0 1.4rem;
+  display: none;
 
   ${media.lessThan("large")`
     font-size: 1.6rem;
     line-height: 1.3;
     padding: 0 1rem;
+    display: none;
   `}
 `
 
@@ -70,8 +72,8 @@ export const MainContent = styled.section`
   .button-post {
     color: var(--postColor);
     font-size: 1.25rem;
-    font-weight: 400;
-    line-height: 1.7;
+    font-weight: 300;
+    line-height: 1.5;
     letter-spacing: 0.069rem;
     padding: 0 1.4rem;
 
@@ -141,12 +143,12 @@ export const MainContent = styled.section`
   h3,
   h4,
   h5 {
-    font-weight: 800;
+    font-weight: 700;
     letter-spacing: 0.069rem;
-    line-height: 1.4;
+    line-height: 1.3;
   }
   h1 {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
 
     ${media.lessThan("large")`
       font-size: 1.875rem;

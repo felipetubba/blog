@@ -11,7 +11,7 @@ background: '#F0D91D'
  
 Uma das coisas que não entrava na minha cabeça de jeito nenhum era a diferença entre .forEach() e .map(). Não importava quantos vídeos eu assistia ou quantos artigos eu lia, eu não via nenhuma diferença entre esses dois. Eu quase desisti, sério! Esse problema se perpetuou até eu bater de frente com um código recheado desses dois e aí não teve jeito, era entender ou entender.
  
-Pensando que essa pode ser uma dúvida de muitos programadores, principalmente os iniciantes,eu resolvi escrever esse artigo. Quem sabe você não sofra tanto quanto eu, depois dessa pequena ajudinha.
+Pensando que essa pode ser uma dúvida de muitos programadores, principalmente os iniciantes, eu resolvi escrever esse artigo. Quem sabe você não sofra tanto quanto eu, depois dessa pequena ajudinha.
  
 Bora lá!
  
@@ -61,7 +61,7 @@ Como podemos ver, o .map() gerou um novo array a partir das interações que ele
  
 ## conclusão
 
-Se você precisa salvar os dados, talvez o .forEach() seja a melhor opção. Já se você precisa criar um novo array, o .map() é mais adequado.
+Se você não precisa salvar os dados, talvez o .forEach() seja a melhor opção. Já se você precisa guardar esses dados em um novo array, o .map() é mais adequado.
 
 Bom, acho que é isso. Espero que eu tenha conseguido contribuir de alguma forma com este meu primeiro artigo. E se você tiver algo a acrescentar ou achar que faltou alguma coisa, pode deixar nos comentários que eu terei o prazer de ler cada mensagem.
  

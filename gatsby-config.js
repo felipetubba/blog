@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Felipe Tubba`,
     position: "Desenvolvedor Front-end",
-    description: `Seja bem-vindo ao meu blog. Aqui eu falo sobre desenvolvimento web e sobre minha vida pessoal. Divirta-se!`,
+    description: `Seja bem-vindo ao meu blog. Aqui eu falo sobre desenvolvimento web, design, trips and more!`,
     author: `@felipetubba`,
     siteUrl: `https://felipetubba.netlify.com/`,
   },

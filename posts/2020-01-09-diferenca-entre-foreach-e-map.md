@@ -2,7 +2,7 @@
 title: 'JavaScript: Entenda a diferença entre .forEach() e .map()'
 description: 'O .map(), assim como o .forEach(), é um iterador de array que não altera o array original, mas a grande diferença é deles é que...'
 date: '2020-01-09 03:15:26'
-image: /assets/img/peru-cover.png
+image: /assets/img/foreach-ou-map.png
 category: js
 background: '#F0D91D'
 ---
